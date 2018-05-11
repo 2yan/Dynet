@@ -14,9 +14,9 @@ Currenty, the goal is to start off and see if I can make it simulate the usual l
 Yes they can. But that's not the point.
 
 ## What is the point then?
-Currently Neural works work in a layer by layer system where they have a pretty rigid/programmed structure. 
+Currently Neural works work in a layer by layer system where they have a pretty rigid/programmed structure and so.... 
 
-## So how exactly is this different from a neural network. 
+### So how exactly is this different from a neural network. 
 The goal of this is to create a neural network that does not conform to any structure, so you can't really use layer[i][j] notation any more. 
 Neurons connect to other Neurons as needed and wither away as needed, Maybe even merge as needed. 
 
