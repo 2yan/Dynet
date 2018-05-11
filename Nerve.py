@@ -51,4 +51,4 @@ class Nerve():
         self.onfire(result)
         
     def backprop(self, expected):
-        #
+        return 
