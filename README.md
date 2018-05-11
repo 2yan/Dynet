@@ -25,7 +25,9 @@ Yes I like 'nerves' better. After doing ML for a while the word Neuron makes me 
 
 ## What algorithim do you use to do the following: 
 - Figure out how nerves decide to connect to each other/ grow/ shrink/ dissolve/ or combine? 
-Figuring that out is a huge part of this algorthim. 
+
+Figuring that out is a huge part of this algorthim. I'm thinking of some sort of state based system based on time so if a parent nerve has been fired within some amount of time it adds that to the current activation, perhaps the addition to the current activation has it's own activation function so the longer it takes the less of an impact it would have. 
+
 - Fire the nerves.
 
 The nerves have a .fire function very inspired by current neural networks. The output is divided and sent as the input to all children
@@ -40,6 +42,9 @@ If a Nerve C has parent nerves A & B and a signal comes through A which fires th
 ### Other rambling
 The thing with having a dynamic setup like this is that we end up going a step back in terms of one of the biggest recent advancements in AI. 
 We figured out that using the chain rule could be used to backpropagate, but that becomes difficult when you have a cloudlike structure of neurons. 
+
+## Ethical Concerns about creating conciousness. 
+ Lol I wish this was that advanced. 
 
 ## Can I help?
 If you write all the tests as you code. yes. Otherwise you're just going to get on my *Nerves*
