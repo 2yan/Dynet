@@ -41,7 +41,17 @@ If a Nerve C has parent nerves A & B and a signal comes through A which fires th
 
 ### Other rambling
 The thing with having a dynamic setup like this is that we end up going a step back in terms of one of the biggest recent advancements in AI. 
-We figured out that using the chain rule could be used to backpropagate, but that becomes difficult when you have a cloudlike structure of neurons. 
+We figured out that using the chain rule could be used to backpropagate, but that becomes difficult when you have a cloudlike structure of neurons.
+
+Instead of backprop I could perhaps have neurons grow as they are fired aka just as humans do an action they get better at it. Perhaps the weight of each nerve increases slightly every time it's fired? 
+This leads to other problems: How does the brain choose to grow new weights? The system will also never stop learning if the 'fire' function adjusts the weights. 
+
+How many real world Nerves does it take to model a NOT function? 
+
+Nerve Model:
+activation_function(Signal x Weight)
+
+
 
 ## Ethical Concerns about creating conciousness. 
  Lol I wish this was that advanced. 
