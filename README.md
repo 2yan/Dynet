@@ -54,7 +54,7 @@ activation_function(Signal x Weight)
 One way I can see this work is if an activation applied BEFORE the weight multiplication. So basically when a signal is sent to all of a Nerve's children, only the children for which the signal is in the activation is in range will really use it. And perhaps if there is not 'child' Nerve for which the signal is in range then a New Nerve is created where the activation would be in range. 
 
 
-
+How is this different from a random forest? Am I just accidently recreating a less memory efficient implementation of a random forest here? 
 
 ## Ethical Concerns about creating conciousness. 
  Lol I wish this was that advanced. 
